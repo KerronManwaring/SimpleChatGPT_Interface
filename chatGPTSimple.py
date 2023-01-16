@@ -29,7 +29,9 @@ def speak(text):
     mixer.init()
     mixer.music.load("chatGPT.mp3")
     mixer.music.play()
-
+    
+    os.remove("chatGPT.mp3")
+    
 def request():
     text = txt.get()
     completion = openai.Completion.create(engine="text-davinci-003", prompt=text, max_tokens=1024)
