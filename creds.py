@@ -1,1 +1,1 @@
-OPENAI_API_KEY = "xx-xxxxxxxxxxxx Youre API Key Here xxxxxxxxxxxxxxxx"
+OPENAI_API_KEY = "xx-xxxxxxxxxxxx  Your API Key Here xxxxxxxxxxxxxxxx"
